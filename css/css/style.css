@@ -7,9 +7,9 @@ body{
 
 a{
     text-decoration: none; /*quita el subrayado de las palabras*/
+    color: black;
 
 }
-
 
 
 
@@ -173,5 +173,34 @@ a{
     color: black;
         
 }
+
+
+.pie_nav{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.pie_nav_lista{
+    display: flex;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    
+    
+}
+
+.pie_nav_lista_enlace{
+    margin-right: 2rem;
+    
+    
+}
+
+
+
+
+
+
 
 
