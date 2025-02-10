@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
     button.addEventListener("click", function () {
         const newColor = getRandomColor();
         document.body.style.backgroundColor = newColor;
-        title.textContent = `Background Color: ${newColor}`;
+        title.textContent = "Background color: " + newColor;
         button.style.backgroundColor = newColor;
     });
 });
