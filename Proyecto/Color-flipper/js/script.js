@@ -3,8 +3,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const title = document.querySelector(".titulo");
 
     const colores = [
-        "Red", "Blue", "Green", "Yellow", "Orange", "Purple", "Pink", "Brown", "Cyan", "Magenta",
-        "Lime", "Maroon", "Navy", "Olive", "Teal", "Turquoise", "Violet", "Gold", "Silver", "Coral"
+        "Red", "Blue", "Green", "Yellow", "Orange", "Purple", "Pink", "Brown", 
+        "Cyan", "Magenta", "Lime", "Maroon", "Navy", "Olive", "Teal", "Turquoise", 
+        "Violet", "Gold", "Silver", "Coral"
     ];
 
     function getRandomColor() {
@@ -15,6 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const newColor = getRandomColor();
         document.body.style.backgroundColor = newColor;
         title.textContent = `Background Color: ${newColor}`;
+        title.style.color = newColor; 
         button.style.backgroundColor = newColor;
     });
 });
